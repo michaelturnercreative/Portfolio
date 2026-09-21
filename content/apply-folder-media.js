@@ -1,0 +1,15 @@
+/* Applies images discovered in each project's organized image folders. */
+(() => {
+  const discoveredProjects = window.folderMedia?.projects || {};
+
+  Object.entries(discoveredProjects).forEach(([projectId, media]) => {
+    const project = window.siteData?.projects.find((item) => item.id === projectId);
+    if (!project) return;
+
+    const managedPrefix = `content/projects/${project.folder}/images/`;
+    const existingGallery = project.folderGalleryOnly ? [] : project.gallery.filter((image) => !image.src.startsWith(managedPrefix));
+
+    if (media.cover) project.cover = media.cover;
+    project.gallery = [...existingGallery, ...media.gallery];
+  });
+})();

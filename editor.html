@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio Image Folders — Michael Turner</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23121212'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-size='24' font-weight='700' fill='white'%3EMT%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header class="editor-header">
+    <a class="editor-wordmark" href="index.html">Michael Turner</a>
+    <span class="local-label">Local content guide</span>
+    <a class="portfolio-link" href="index.html">View portfolio <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="editor-intro" aria-labelledby="guide-title">
+      <p class="eyebrow">Finder-based workflow</p>
+      <h1 id="guide-title">Drop images into folders. Refresh the site.</h1>
+      <p class="intro-copy">The project folders are now the source of truth for new imagery. Add files in Finder, then refresh the image list with the included Mac tool. No browser folder access is required.</p>
+    </section>
+
+    <section class="editor-workspace" aria-labelledby="steps-title">
+      <div class="workspace-heading">
+        <div>
+          <p class="eyebrow">Four simple steps</p>
+          <h2 id="steps-title">How to add work</h2>
+        </div>
+      </div>
+      <ol class="workflow-steps">
+        <li><span>01</span><div><h3>Open a project folder</h3><p>Go to <code>content / projects</code> and open the project you want to update.</p></div></li>
+        <li><span>02</span><div><h3>Choose an image section</h3><p>Inside <code>images</code>, choose Featured, Art Direction, Graphic Design, Photography, Digital &amp; Web, Motion &amp; Video, or Process.</p></div></li>
+        <li><span>03</span><div><h3>Drop in your images</h3><p>Use JPG, PNG, WebP, or GIF files. The first alphabetically named image in Featured becomes the project cover.</p></div></li>
+        <li><span>04</span><div><h3>Refresh the image list</h3><p>Double-click <code>Refresh Portfolio Images.command</code>, then refresh the portfolio in your browser.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="editor-workspace section-divider" aria-labelledby="sections-title">
+      <div class="workspace-heading">
+        <div>
+          <p class="eyebrow">Image sections</p>
+          <h2 id="sections-title">What belongs where</h2>
+        </div>
+        <p>These same folders appear inside every featured project.</p>
+      </div>
+      <div class="drop-grid">
+        <article class="drop-card"><span class="drop-index">01</span><h3 class="drop-title">Featured image</h3><p class="drop-description">One strong cover that represents the entire project. Alphabetical order determines the active cover when more than one image is present.</p><code class="drop-path">images/featured/</code></article>
+        <article class="drop-card"><span class="drop-index">02</span><h3 class="drop-title">Art direction</h3><p class="drop-description">Campaign worlds, concepts, moodboards, shoot direction, and completed visual systems.</p><code class="drop-path">images/art-direction/</code></article>
+        <article class="drop-card"><span class="drop-index">03</span><h3 class="drop-title">Graphic design</h3><p class="drop-description">Layouts, campaign graphics, print, email, identity, and social design.</p><code class="drop-path">images/graphic-design/</code></article>
+        <article class="drop-card"><span class="drop-index">04</span><h3 class="drop-title">Photography</h3><p class="drop-description">Product, on-model, editorial, and carefully retouched final images.</p><code class="drop-path">images/photography/</code></article>
+        <article class="drop-card"><span class="drop-index">05</span><h3 class="drop-title">Digital &amp; web</h3><p class="drop-description">Landing pages, ecommerce, dashboards, and mobile or desktop screens.</p><code class="drop-path">images/digital-web/</code></article>
+        <article class="drop-card"><span class="drop-index">06</span><h3 class="drop-title">Motion &amp; video</h3><p class="drop-description">Thumbnails, GIFs, key motion frames, and stills from finished video work.</p><code class="drop-path">images/motion-video/</code></article>
+        <article class="drop-card"><span class="drop-index">07</span><h3 class="drop-title">Process</h3><p class="drop-description">Sketches, iterations, contact sheets, before-and-after work, and production details.</p><code class="drop-path">images/process/</code></article>
+      </div>
+    </section>
+
+    <aside class="support-note">
+      <h2>Automatic option</h2>
+      <p>Double-click <strong>Start Portfolio.command</strong> instead of the basic preview server. It watches the image folders while it runs, so newly dropped files are discovered automatically; refresh the browser to see them.</p>
+    </aside>
+  </main>
+</body>
+</html>
