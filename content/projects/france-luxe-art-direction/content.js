@@ -5,8 +5,8 @@ window.siteData.projects.push({
   "number": "01",
   "title": "France Luxe Art Direction",
   "client": "France Luxe",
-  "year": "2019–2022",
-  "role": "Art direction and shoot direction",
+  "year": "May 2019–Apr 2022",
+  "role": "Associate Art Director · Earlier: Graphic Designer",
   "categories": [
     "Art direction",
     "Photography",

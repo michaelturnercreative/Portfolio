@@ -25,18 +25,18 @@ window.siteData.experience = [
   },
   {
     "company": "France Luxe / The Finest Accessories",
-    "role": "Graphic design and art direction",
-    "dates": "May 2019—Apr 2022",
+    "role": "Associate Art Director · Earlier: Graphic Designer",
+    "dates": "Dec 2019—Apr 2022 · May—Dec 2019",
     "note": "Seasonal photography direction and campaign design for a luxury accessories brand.",
-    "detail": "I grew from graphic design into art-direction responsibilities, collaborating with marketing leadership on seasonal campaigns. I directed shoots with photographers, stylists, models, and contractors, then developed ecommerce, email, and social assets around the selected imagery.",
+    "detail": "I joined as a Graphic Designer from May to December 2019, then served as Associate Art Director from December 2019 to April 2022. I led campaign creative, directed shoots with photographers, stylists, models, and contractors, and maintained a cohesive visual identity across ecommerce, email, and social.",
     "project": "france-luxe-art-direction"
   },
   {
     "company": "Zumiez",
-    "role": "Photo Editor → Photographer → Graphic Designer",
-    "dates": "2011—2019",
+    "role": "Graphic Designer · Earlier: Photographer and Photo Editor",
+    "dates": "Jan 2018—Apr 2019 · Dec 2011—Sep 2015 · Mar—Dec 2011",
     "note": "Ecommerce photography, image editing, and digital campaign design.",
-    "detail": "I worked across the ecommerce image workflow, from high-volume retouching to product and on-model photography. I later designed banners, email campaigns, and marketing assets for product launches and brand collaborations.",
+    "detail": "I worked at Zumiez during three separate periods: Photo Editor from March to December 2011, Photographer from December 2011 to September 2015, and Graphic Designer from January 2018 to April 2019. The work ranged from high-volume retouching and product photography to ecommerce banners, email campaigns, and social assets.",
     "project": "zumiez-ecommerce"
   },
   {

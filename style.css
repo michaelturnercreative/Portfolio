@@ -520,6 +520,11 @@ button:focus-visible {
 .project-external-link { display: inline-flex; align-items: center; gap: .45rem; padding: .45rem .7rem; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: .76rem; font-weight: 600; text-decoration: none; transition: border-color .2s ease, background .2s ease, color .2s ease; }
 .project-external-link svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .project-external-link:hover, .project-external-link:focus-visible { border-color: var(--project-color); background: var(--project-color); color: white; }
+.project-video-links { grid-column: 1 / -1; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+.project-video-links-list { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .65rem; }
+.project-video-link { display: inline-flex; align-items: center; gap: .55rem; padding: .65rem .85rem; border: 1px solid var(--project-color); color: var(--ink); font-size: .82rem; font-weight: 600; text-decoration: none; transition: background .2s ease, color .2s ease; }
+.project-video-link:hover, .project-video-link:focus-visible { background: var(--project-color); color: white; }
+.project-video-link > span:first-child { font-size: .72rem; }
 
 .project-lead-image { margin: 0; padding: clamp(1.5rem, 4vw, 4rem) var(--content-pad); background: #e9e4da; }
 .project-lead-image img { width: 100%; max-height: 78vh; display: block; object-fit: contain; }
@@ -634,6 +639,8 @@ button:focus-visible {
   .project-hero { min-height: 560px; padding-top: 1.5rem; }
   .project-hero-title { font-size: 13vw; }
   .project-hero-meta { grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .project-video-links-list { display: grid; grid-template-columns: 1fr; }
+  .project-video-link { width: 100%; }
   .story-columns { grid-template-columns: 1fr; gap: 2.5rem; }
   .project-results { grid-template-columns: 1fr; }
   .project-result { padding: 1.25rem 0; }

@@ -6,8 +6,8 @@ window.siteData.projects.push({
   "featured": false,
   "title": "Zumiez Ecommerce Design",
   "client": "Zumiez",
-  "year": "2011–2019",
-  "role": "Photo Editor, Photographer & Graphic Designer",
+  "year": "2011; 2011–2015; 2018–2019",
+  "role": "Graphic Designer · Earlier: Photographer and Photo Editor",
   "categories": [
     "Ecommerce",
     "Campaign design",

@@ -5,8 +5,8 @@ window.siteData.projects.push({
   "number": "04",
   "title": "France Luxe Digital Campaigns",
   "client": "France Luxe",
-  "year": "2019–2022",
-  "role": "Campaign design and art direction",
+  "year": "May 2019–Apr 2022",
+  "role": "Associate Art Director · Earlier: Graphic Designer",
   "categories": [
     "Campaign design",
     "Ecommerce",

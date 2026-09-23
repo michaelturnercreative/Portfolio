@@ -21,5 +21,10 @@
         ...otherImages.map((image) => ({ ...image, section: "Campaign extensions" }))
       ];
     }
+
+    if (projectId === "somatic-living-creative-system") {
+      // Hide the temporary social-image stand-in until a real dashboard capture is available.
+      project.gallery = project.gallery.filter((image) => image.section !== "Digital & web");
+    }
   });
 })();

@@ -20,6 +20,16 @@ window.siteData.projects.push({
     "twitter": "",
     "linkedin": ""
   },
+  "videoLinks": [
+    {
+      "label": "Watch: Experience the Meditative Body",
+      "url": "https://www.youtube.com/watch?v=1bg2cFVKn1M"
+    },
+    {
+      "label": "Watch: Somatic Body Awareness Technique",
+      "url": "https://www.youtube.com/watch?v=4HLkkObkJV8"
+    }
+  ],
   "summary": "A publishing workflow for recorded conversations and a simpler way for members to explore a growing practice library.",
   "challenge": "Publish consistently across platforms while helping members find relevant practices and giving new visitors a clear place to start.",
   "approach": "I built a workflow that turns a recorded conversation into a full YouTube episode, shorter clips, captions, thumbnails, and carousel graphics. Reusable formats give each piece a consistent visual identity while adapting it to the platform.\n\nFor the member experience, I organized pathways for main practice, breathing, meditation, and foundations, with AI-assisted imagery for the modules. I also replaced the card-required first step with an Intro Pass using Google sign-in, so visitors could try selected practices before choosing full access.",

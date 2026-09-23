@@ -79,6 +79,25 @@
       </div>`;
   };
 
+  const projectVideoLinksTemplate = (project) => {
+    const videos = Array.isArray(project.videoLinks)
+      ? project.videoLinks.filter((video) => video?.label?.trim() && video?.url?.trim())
+      : [];
+    if (!videos.length) return "";
+
+    return `
+      <div class="project-video-links">
+        <p class="meta-label">Playable examples</p>
+        <div class="project-video-links-list">
+          ${videos.map((video) => `
+            <a class="project-video-link" href="${escapeHtml(video.url.trim())}" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">▶</span>
+              <span>${escapeHtml(video.label.trim())}</span>
+            </a>`).join("")}
+        </div>
+      </div>`;
+  };
+
   const projectLink = (project, className = "") => `
     <article class="project-card reveal ${className}" data-project="${escapeHtml(project.id)}">
       <a class="project-link" href="#project/${project.id}" aria-label="View ${escapeHtml(project.title)} for ${escapeHtml(project.client)}">
@@ -242,6 +261,7 @@
             <div><span class="meta-label">Period</span><p>${escapeHtml(project.year)}</p></div>
             <div><span class="meta-label">Disciplines</span><p>${project.categories.map(escapeHtml).join(" · ")}</p></div>
             ${projectLinksTemplate(project)}
+            ${projectVideoLinksTemplate(project)}
           </div>
         </header>
 
@@ -276,9 +296,10 @@
           </div>
         </section>
 
-        <section class="project-gallery" aria-label="Selected project images">
-          ${galleryTemplate(project.gallery)}
-        </section>
+        ${project.gallery?.length ? `
+          <section class="project-gallery" aria-label="Selected project images">
+            ${galleryTemplate(project.gallery)}
+          </section>` : ""}
 
         <a class="next-project" href="#project/${escapeHtml(nextProject.id)}">
           <span class="next-project-label">Next project · ${escapeHtml(nextProject.title)}</span>
