@@ -142,7 +142,7 @@ This is a self-contained copy of the portfolio website.
 - Keep the complete folder together when moving or sharing it.
 - The package includes only the ${imageCount} image files used by the exported website.
 - Portfolio copy and image paths are stored in \`content/site-data.js\`.
-- The résumé PDF is stored in \`assets\`.
+- The resume PDF is stored in \`assets\`.
 
 The working website and its larger source-image library were not modified or included.
 `;
