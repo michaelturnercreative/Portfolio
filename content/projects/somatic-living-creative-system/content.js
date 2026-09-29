@@ -56,7 +56,7 @@ window.siteData.projects.push({
       "label": "The Intro Pass gives new members access to selected starter practices without entering card details."
     }
   ],
-  "cover": "content/projects/somatic-living-creative-system/images/featured/Somatic LIving-Eposide 6 thumbnail-v2.jpg",
+  "cover": "content/projects/somatic-living-creative-system/images/featured/Somatic Living-Episode 6 thumbnail-v2.jpg",
   "theme": "green",
   "gallery": [
     {

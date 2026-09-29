@@ -9,7 +9,7 @@ window.siteData.projects.push({
   "role": "Associate Art Director · Earlier: Graphic Designer",
   "categories": [
     "Campaign design",
-    "Ecommerce",
+    "E-commerce",
     "Email & social"
   ],
   "links": {
@@ -20,7 +20,7 @@ window.siteData.projects.push({
     "twitter": "",
     "linkedin": ""
   },
-  "summary": "Seasonal ecommerce campaigns carried through email, social, and web.",
+  "summary": "Seasonal e-commerce campaigns carried through email, social, and web.",
   "challenge": "Give product launches and promotions a recognizable look across formats with different sizes, content needs, and publishing rhythms.",
   "approach": "I developed campaign layouts using typography, color, product groupings, and photography. I adapted those elements into marketing emails, homepage banners, and social graphics. Reusing the visual language across formats gave each promotion its own character while keeping the brand consistent.",
   "contribution": [

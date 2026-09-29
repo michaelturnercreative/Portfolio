@@ -4,12 +4,12 @@ window.siteData.projects.push({
   "folder": "zumiez-ecommerce-design",
   "number": "05",
   "featured": false,
-  "title": "Zumiez Ecommerce Design",
+  "title": "Zumiez E-commerce Design",
   "client": "Zumiez",
   "year": "2011; 2011–2015; 2018–2019",
   "role": "Graphic Designer · Earlier: Photographer and Photo Editor",
   "categories": [
-    "Ecommerce",
+    "E-commerce",
     "Campaign design",
     "Photography"
   ],
@@ -22,7 +22,7 @@ window.siteData.projects.push({
     "linkedin": ""
   },
   "summary": "Product photography, image editing, and campaign design for a fast-moving retail environment.",
-  "challenge": "Keep ecommerce imagery and promotional assets current across launches and collaborations while respecting the identity of each partner brand.",
+  "challenge": "Keep e-commerce imagery and promotional assets current across launches and collaborations while respecting the identity of each partner brand.",
   "approach": "I retouched product imagery, photographed products and on-model looks with stylists and creative leads, and later designed digital campaigns. Working across these stages gave me a practical understanding of how images need to function in product pages, banners, email, and social.",
   "contribution": [
     "High-volume retouching",

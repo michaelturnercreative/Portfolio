@@ -22,7 +22,7 @@ window.siteData.projects.push({
   },
   "summary": "Seasonal photography direction that brought a distinct editorial character to luxury hair accessories.",
   "challenge": "Make small accessories the focus of expressive campaign imagery while keeping the brand recognizable across seasons.",
-  "approach": "I developed seasonal visual concepts with marketing leadership and directed shoots with photographers, stylists, models, and contractors. I selected final images with attention to the product, styling, and mood, then prepared selections for campaign use across ecommerce, email, and social.",
+  "approach": "I developed seasonal visual concepts with marketing leadership and directed shoots with photographers, stylists, models, and contractors. I selected final images with attention to the product, styling, and mood, then prepared selections for campaign use across e-commerce, email, and social.",
   "contribution": [
     "Visual concepts",
     "Shoot direction",
